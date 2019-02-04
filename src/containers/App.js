@@ -21,7 +21,6 @@ class App extends Component {
 }
 
 const mapStateToProps = store => {
-  console.log(store)
   return {
     page: store.page,
     user: store.user,
